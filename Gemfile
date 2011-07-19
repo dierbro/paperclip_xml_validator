@@ -8,6 +8,11 @@ gem "sqlite3"
 gem "paperclip"
 gem "nokogiri"
 gem "mime-types"
+
+group :test do
+    gem 'turn'
+end
+
 if RUBY_VERSION < '1.9'
   gem "ruby-debug", ">= 0.10.3"
 end
