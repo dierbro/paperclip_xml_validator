@@ -2,7 +2,7 @@
 
 ## Usage
 
-    # In config/environment.rb
+    # app/model/attachment.rb
     class Attachment < ActiveRecord::Base
       has_attached_file :xml
 
