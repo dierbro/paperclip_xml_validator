@@ -2,7 +2,7 @@
 
 ## Usage
 
-    # app/model/attachment.rb
+    # app/models/attachment.rb
     class Attachment < ActiveRecord::Base
       has_attached_file :xml
 
